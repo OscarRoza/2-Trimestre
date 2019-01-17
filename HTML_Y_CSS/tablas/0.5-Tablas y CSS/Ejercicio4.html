@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    
+    table{
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    th,
+    td{
+        padding:0.25em;
+        text-align: left;
+        border: solid#ccc;
+    }
+
+    tbody tr:nth-child(odd){
+        background-color: #e2f2f5;
+    }
+
+    tfoot td{
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Pais</th>
+            <th>Capital</th>
+            <th>Superficie</th>
+            <th>Habitantes</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>España</td>
+            <td>Madrid</td>
+            <td>504.645km<sup>2</sup></td>
+            <td>46.6M</td>
+        </tr>
+
+        <tr>
+            <td>Italia</td>
+            <td>Roma</td>
+            <td>301.388km<sup>2</sup></td>
+            <td>60.7M</td>
+        </tr>
+
+        <tr>
+            <td>Francia</td>
+            <td>Paris</td>
+            <td>675.417km<sup>2</sup></td>
+            <td>66M</td>
+        </tr>
+
+        <tr>
+            <td>Grecia</td>
+            <td>Atenas</td>
+            <td>131.990km<sup>2</sup></td>
+            <td>10.7M</td>
+        </tr>
+
+        <tr>
+            <td>Alemania</td>
+            <td>Berlin</td>
+            <td>357.168km<sup>2</sup></td>
+            <td>31.2M</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4">tabla con estilo "zebra"</td>
+        </tr>
+    </tfoot>
+    </table>
+
+</body>
+</html>
