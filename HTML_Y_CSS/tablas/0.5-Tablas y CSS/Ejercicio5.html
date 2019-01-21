@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Tablas Volcán</title>
+    <style type="text/css">
+    
+    body{
+        background: white;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.4em;
+        font-family: tahoma, arial, sans-serif;
+        font-size: 62.5%;
+    }
+
+    table{
+        width: 80%;
+        margin: 0;
+        background: white;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td,
+    th{
+        border-bottom: 1px solid black;
+        padding: 6px 16px;
+        text-align: left;
+    }
+    th{
+        background: #EEEEEE;
+    }
+
+    caption {
+        background: #E0E0E0;
+        margin: 0;
+        border: 1px solid black;
+        border-bottom: none;
+        padding: 6px 16px;
+        font-weight: bold;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Recent major Volcanic Eruptions in the Pacific Northwest</caption>
+        <thead>
+            <tr>
+                <th scope="col">Volcano Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Last Major Eruption</th>
+                <th scope="col">Type of eruption</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">Compiles in 2008 by Ms Jen</td>
+            </tr>
+        </tfoot>
+        <tr>
+            <th scope="col">Mt. Lassen</th>
+            <td>California</td>
+            <td>1914-17</td>
+            <td>Explosive Eruption</td>
+        </tr>
+        <tr>
+            <th scope="col">Mt. Hood</th>
+            <td>Oregon</td>
+            <td>1790s</td>
+            <td>Pyrolastic flows and Mudflows</td>
+        </tr>
+        <tr>
+            <th scope="col">Mt. St. Helens</th>
+            <td>Washington</td>
+            <td>1980</td>
+            <td>Explosive Eruption</td>
+        </tr>
+    </table>
+</body>
+</html>
