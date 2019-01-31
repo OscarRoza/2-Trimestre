@@ -121,9 +121,8 @@
 
 /*ENLACES*/
    
-a{
+.accesoindice{
     margin: 5%;
-
 }
     a:hover {
     color: #FF0000; 
