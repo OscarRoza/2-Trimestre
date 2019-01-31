@@ -19,11 +19,16 @@
     }
 
     .titulo{
-        background-image: url("../Imagenes/Letras_Gijon.jpg");
+        background-image: url("../Imagenes/GijonAirejpg.jpg");
+        background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        background-size: 100% 90%;
+        background-position: top;
+        height: 250px;
         width: 100%;   
+        text-align: center;
+        line-height: 125px;
+        margin-top: -3%;
     }
     /*Laboral*/
     .laboral{
@@ -39,6 +44,7 @@
     .Map {
     float: right;
     margin-left: 20px;
+    margin-right: 20px;
     
     }
     p{
